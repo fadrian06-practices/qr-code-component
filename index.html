@@ -4,38 +4,45 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="color-scheme" content="light dark" />
+    <title>Frontend Mentor | QR code component</title>
     <!-- displays site properly based on user's device -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png">
-    <title>Frontend Mentor | QR code component</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+      href="./images/favicon-32x32.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    Improve your front-end skills by building projects Scan the QR code to
-    visit Frontend Mentor and take your coding skills to the next level
-    <div class="attribution">
+    <article class="qr">
+      <img
+        src="./images/image-qr-code.png"
+        alt="QR code"
+        class="qr__img"
+        width="100%" />
+      <h1 class="qr__title">
+        Improve your front-end skills by building projects
+      </h1>
+      <p class="qr__text">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </article>
+    <footer class="attribution">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank">
-        Frontend Mentor
-      </a>
-      . Coded by
-      <a href="#">Your Name Here</a>
-      .
-    </div>
+        target="_blank"
+        class="attribution__link">
+        Frontend Mentor</a>. Coded by
+      <a
+        href="https://github.com/fadrian06"
+        target="_blank"
+        class="attribution__link">
+        Franyer Sánchez</a>.
+    </footer>
   </body>
 </html>
