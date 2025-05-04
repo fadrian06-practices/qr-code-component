@@ -76,7 +76,7 @@ body {
   margin: auto;
   box-shadow: 0 1em 1em var(--shadow);
   color: var(--color-slate-900);
-  transition: var(--transition-duration) background;
+  transition: var(--transition-duration) background, var(--transition-duration) box-shadow;
 }
 
 .qr__img {
